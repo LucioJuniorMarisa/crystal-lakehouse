@@ -30,7 +30,7 @@ export function AppSidebar() {
           <img
             src={heathhubLogo}
             alt="HeathHUB"
-            className="h-40 w-auto object-contain group-data-[collapsible=icon]:h-30"
+            className="h-40 w-auto object-contain group-data-[collapsible=icon]:h-[120px]"
           />
         </div>
       </SidebarHeader>

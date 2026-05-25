@@ -25,12 +25,12 @@ export function AppSidebar() {
 
   return (
     <Sidebar collapsible="icon">
-      <SidebarHeader className="border-b border-sidebar-border">
-        <div className="flex items-center justify-center px-2 py-4 group-data-[collapsible=icon]:px-1 group-data-[collapsible=icon]:py-2">
+      <SidebarHeader className="h-12 min-h-12 p-0 border-b border-sidebar-border overflow-visible">
+        <div className="relative h-full flex items-center justify-center overflow-visible">
           <img
             src={heathhubLogo}
             alt="HeathHUB"
-            className="h-40 w-auto object-contain group-data-[collapsible=icon]:h-[120px]"
+            className="h-40 w-auto object-contain pointer-events-none group-data-[collapsible=icon]:h-[120px]"
           />
         </div>
       </SidebarHeader>

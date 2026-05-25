@@ -13,7 +13,7 @@ import {
   SidebarHeader,
 } from "@/components/ui/sidebar";
 
-const items = [
+export const items = [
   { title: "Editor de Catálogo", url: "/", icon: Database },
   { title: "Editor SQL", url: "/sql", icon: Code2 },
   { title: "Segurança", url: "/security", icon: Shield },
@@ -36,7 +36,6 @@ export function AppSidebar() {
       </SidebarHeader>
       <SidebarContent>
         <SidebarGroup>
-          <SidebarGroupLabel>Navegação</SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>
               {items.map((item) => {

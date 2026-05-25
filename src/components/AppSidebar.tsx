@@ -26,7 +26,7 @@ export function AppSidebar() {
   return (
     <Sidebar collapsible="icon">
       <SidebarHeader className="border-b border-sidebar-border">
-        <div className="flex items-center justify-center px-2 py-2 group-data-[collapsible=icon]:px-0">
+        <div className="flex items-center justify-center px-2 py-4 group-data-[collapsible=icon]:px-1 group-data-[collapsible=icon]:py-2">
           <img
             src={heathhubLogo}
             alt="HeathHUB"

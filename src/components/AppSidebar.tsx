@@ -1,5 +1,6 @@
 import { Link, useRouterState } from "@tanstack/react-router";
 import { Database, Code2, Shield, LayoutGrid } from "lucide-react";
+import heathhubLogo from "@/assets/heathhub-logo.png";
 import {
   Sidebar,
   SidebarContent,

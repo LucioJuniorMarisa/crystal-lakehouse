@@ -26,13 +26,12 @@ export function AppSidebar() {
   return (
     <Sidebar collapsible="icon">
       <SidebarHeader className="border-b border-sidebar-border">
-        <div className="flex items-center gap-2 px-2 py-1.5">
-          <div className="h-7 w-7 rounded-md bg-primary/15 flex items-center justify-center">
-            <Database className="h-4 w-4 text-primary" />
-          </div>
-          <span className="text-sm font-semibold tracking-tight group-data-[collapsible=icon]:hidden">
-            Lakehouse
-          </span>
+        <div className="flex items-center justify-center px-2 py-2 group-data-[collapsible=icon]:px-0">
+          <img
+            src={heathhubLogo}
+            alt="HeathHUB"
+            className="h-8 w-auto object-contain group-data-[collapsible=icon]:h-6"
+          />
         </div>
       </SidebarHeader>
       <SidebarContent>
